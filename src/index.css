@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+}
+/* Add to your main CSS file */
+.Toastify__toast {
+  border-radius: 8px !important;
+  font-family: inherit !important;
+}
+
+.Toastify__toast--success {
+  background: #4bb543 !important;
+}
+
+.Toastify__toast--error {
+  background: #ff3333 !important;
+}
+
+.Toastify__toast--info {
+  background: #3498db !important;
+}
