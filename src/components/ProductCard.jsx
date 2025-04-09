@@ -16,8 +16,8 @@ const ProductCard = ({ product }) => {
         />
       </Link>
       <div className="product-info">
-        <Link to={`/products/${product.id}`}>
-          <h4 className="product-title">{product.title}</h4>
+        <Link className="title-link" to={`/products/${product.id}`}>
+          <h3 className="product-title">{product.title}</h3>
         </Link>
         <p className="product-price">${product.price}</p>
         <button onClick={() => addToCart(product)} className="add-to-cart-btn">
